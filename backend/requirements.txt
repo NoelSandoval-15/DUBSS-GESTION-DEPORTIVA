@@ -1,0 +1,44 @@
+# ─── Django core ─────────────────────────────────────────────────────────────
+Django==5.0.6
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+django-filter==24.3
+django-environ==0.11.2
+
+# ─── Base de datos ────────────────────────────────────────────────────────────
+psycopg2-binary==2.9.9
+
+# ─── Autenticación JWT ────────────────────────────────────────────────────────
+djangorestframework-simplejwt==5.3.1
+
+# ─── Swagger / OpenAPI ────────────────────────────────────────────────────────
+drf-spectacular==0.27.2
+
+# ─── Servidor WSGI ────────────────────────────────────────────────────────────
+gunicorn==22.0.0
+
+# ─── Imágenes / archivos ──────────────────────────────────────────────────────
+Pillow==10.4.0
+
+# ─── Machine Learning ─────────────────────────────────────────────────────────
+scikit-learn==1.5.1
+pandas==2.2.2
+numpy==2.0.1
+joblib==1.4.2
+
+# ─── Tareas asíncronas (notificaciones) ───────────────────────────────────────
+celery==5.4.0
+redis==5.0.8
+django-celery-beat==2.6.0
+
+# ─── APIs externas ────────────────────────────────────────────────────────────
+requests==2.32.3
+groq==0.9.0
+
+# ─── Reportes / exportación ──────────────────────────────────────────────────
+reportlab==4.2.2
+openpyxl==3.1.5
+
+# ─── Utilidades ───────────────────────────────────────────────────────────────
+python-decouple==3.8
+Markdown==3.7
